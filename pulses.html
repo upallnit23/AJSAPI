@@ -1,0 +1,32 @@
+<!-- Implementing Timers in JavaScript 
+ Task 3 Repeat Notification-->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width", initial-scale="1.0">
+     
+     <link rel="stylesheet" href="ITijsTimer.css">
+     <title>Repeats</title>
+ </head>
+ <body>
+     <p id="delay">Delayed until pressed (see console.log for output)</p>
+     <button onclick="stopNow()">Stop now</button>
+    
+     <script>
+        let counter = 0;
+        const stopInterval = setInterval(function() {
+            counter++;
+            document.getElementById("delay").innerHTML=counter;  
+                console.log(counter);  
+            }, 2000)
+
+    
+        function stopNow() {
+            clearInterval(stopInterval);
+        }
+    
+     </script>
+ </body>
+ </html>

@@ -1,0 +1,31 @@
+/* Exploring Asynchronous JavaScript */
+/* Tasks 1 thru 3 */
+
+body {
+    font-family: Gevena, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d58383;
+}
+
+.container {
+    max-width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e6eced;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #1a0404;
+}
+
+html {
+    text-align: center;
+    color: #1a0404;
+}
+
+#marvelinfo {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e6eced;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #1a0404;
+}

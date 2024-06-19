@@ -1,0 +1,29 @@
+<!-- Implementing Timers in JavaScript 
+ Task 2 Delayed Notification-->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width", initial-scale="1.0">
+     
+     <link rel="stylesheet" href="ITijsTimer.css">
+     <title>Set Timeout</title>
+ </head>
+ <body>
+     <p id="delayed">Delayed until  (see console.log for output) </p>
+     <!--Prints 1 in the console.log after a 10 second delay-->
+     <script>
+        let counter = 0;
+
+        setTimeout(timeOut, 10000)
+
+        function timeOut() {
+            counter++;
+            console.log(counter);
+        }
+
+
+     </script>
+ </body>
+ </html>

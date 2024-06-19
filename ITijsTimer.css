@@ -1,0 +1,32 @@
+/* Implementing Timers in JavaScript */
+/* Task 2 */
+
+* {
+    box-sizing: border-box;
+    background-color: rgb(134, 77, 101);
+    color: whitesmoke;
+} 
+
+head {
+    
+}
+
+body {
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+
+
+}
+
+h4, small {
+    height: 20px;
+}
+
+.timer {
+    color:whitesmoke;
+}
